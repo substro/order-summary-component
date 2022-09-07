@@ -10,9 +10,9 @@ body {
     font-family: 'Red Hat Display',
         sans-serif;
     min-height: 100vh;
-    background-image: url(pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: hsl(225, 100%, 94%);
     position: relative;
     font-size: 16px;
@@ -44,6 +44,9 @@ body {
 .text-content p.subtitle {
     color: #8a8a8a;
     margin-bottom: 25px;
+}
+.plan-box a{
+    -webkit-tap-highlight-color: transparent;
 }
 
 .plan-box {
@@ -96,6 +99,7 @@ a.proceed-btn {
     border-radius: 12px;
     margin: 30px 0;
     transition: background-color .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a.proceed-btn:hover {
@@ -107,6 +111,7 @@ a.cancel-btn {
     text-decoration: none;
     font-weight: 900;
     transition: color .3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a.cancel-btn:hover {
