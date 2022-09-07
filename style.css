@@ -118,12 +118,6 @@ a.cancel-btn:hover {
     color: hsl(223, 47%, 23%);
 }
 
-@media only screen and (max-width: 425px) {
-    body {
-        background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-mobile.svg);
-        font-size: 14px;
-    }
-
     .container {
         max-width: 87%;
     }
@@ -149,13 +143,6 @@ a.cancel-btn:hover {
     .text-content {
         padding: 9% 7%;
     }
-}
-
-
-
-.link i {
-    padding-left: 7px;
-}
 
 .link:hover {
     text-decoration: underline;
